@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # permission
-MIHOMO_USER="mihomo"
+MIHOMO_USER="root"
 MIHOMO_GROUP="mihomo"
 
 # routing
@@ -18,6 +18,7 @@ TUN_DEVICE="mihomo"
 PROG="/usr/bin/mihomo"
 HOME_DIR="/etc/mihomo"
 PROFILES_DIR="$HOME_DIR/profiles"
+SUBSCRIPTIONS_DIR="$HOME_DIR/subscriptions"
 MIXIN_FILE_PATH="$HOME_DIR/mixin.yaml"
 RUN_DIR="$HOME_DIR/run"
 RUN_PROFILE_PATH="$RUN_DIR/config.yaml"
